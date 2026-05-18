@@ -15,7 +15,7 @@ body {
 
 /* --- 2. Header & Branding --- */
 header {
-    background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+    background: #8fb3ff;
     color: white;
     padding: 2.5rem 2rem;
     text-align: center;
@@ -31,7 +31,7 @@ header h1 {
 }
 
 header p {
-    color: #bfdbfe;
+    color: #e8f2ff;
     font-size: 0.95rem;
 }
 

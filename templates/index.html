@@ -24,7 +24,7 @@
 
                 <label>Service Mode</label>
                 <select name="api_type" x-model="apiType">
-                    <option value="native">Contract Map (Standard)</option>
+                    <option value="native">Contract Map (Native Mode)</option>
                     <option value="custom">Custom API (URL + Params)</option>
                 </select>
 
@@ -60,7 +60,7 @@
 
                 <div x-show="apiType === 'native'" x-transition x-cloak>
                     <p style="font-size: 0.85rem; color: #64748b; background: #eff6ff; padding: 1rem; border-radius: 0.5rem; border: 1px solid #bfdbfe;">
-                        <strong>Native Mode Active:</strong> Using pre-configured Contract Mapping logic. Just upload your file and select the description column.
+                        <strong>Native Mode:</strong> Using pre-configured Contract Mapping logic. Just upload your file and select the description column.
                     </p>
                 </div>
             </section>
