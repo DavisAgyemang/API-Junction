@@ -279,3 +279,19 @@ input:focus, select:focus {
     position: relative;
     z-index: 10;
 }
+.header-content{
+    display: flex;
+    align-items: center;
+    gap: 25.5rem;
+
+}
+.logo{
+    height:40px;
+    width: auto;
+    object-fit: contain;
+}
+
+
+.header-text{
+    text-align:center;
+}
