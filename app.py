@@ -65,8 +65,8 @@ def process():
         method = request.form.get('method', 'POST').upper()
 
         # Build Headers
-        h_keys = request.form.getlist('header_keys[]')
-        h_vals = request.form.getlist('header_values[]')
+        h_keys = request.form.getlist('param_keys[]')
+        h_vals = request.form.getlist('param_values[]')
         headers = {k: v for k, v in zip(h_keys, h_vals) if k}
 
         api_key = request.form.get('api_key')
