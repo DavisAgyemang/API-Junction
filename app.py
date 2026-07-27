@@ -56,7 +56,8 @@ def process():
         method = "POST"
         headers = {
             "Ocp-Apim-Subscription-Key": os.getenv("ContractMap_key"),
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
+            "User-Agent": "curl/7.68.0"
         }
         static_params = []
     else:
